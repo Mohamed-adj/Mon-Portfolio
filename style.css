@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 200, 206);
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.imgp{
+  border-radius: 35px;
+  transform: rotateX(20deg) rotateY(30deg);
+    perspective: 1000px;
+    transition: transform 0.5s ease;
+}
+.imgp:hover {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+.project {
+  border: 2.5px solid #0c0c0c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+ 
+}
+.project {border-style: inset;}
+
+.project p{
+  text-shadow: 1px 1px;
+}
+.h2{
+  background-color: aquamarine ;
+  color: rgb(10, 7, 6);
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 0150px;
+  transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+  perspective: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+.module {
+  
+   width: 7cm;
+  text-align: center;
+  margin: 010px;
+  background-color: rgb(26, 184, 184);
+  margin-left: 500px;
+  font-size: 24px;
+  color: #ffffff; /* Couleur du texte */
+  padding: 0px 0px 0px 05px;
+  height: 50px;
+  border-radius: 15px;
+  text-shadow: 0 0 5px #ffffff, 
+                 0 0 10px #ffffff, 
+                 0 0 20px #6200ff, 
+                 0 0 30px #6200ff, 
+                 0 0 40px #6200ff, 
+                 0 0 50px #6200ff, 
+                 0 0 60px #6200ff;
+    animation: scintiller 1.5s infinite alternate;
+    transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+    perspective: 500px;
+    transform: rotateX(20deg) rotateY(30deg);
+    perspective: 1000px;
+    transition: transform 0.5s ease;
+}
+.module:hover {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+
+.module h3:hover {
+  background-color: chocolate;
+}
+.tp {
+  display: flex;
+  align-items: center;
+}
+.tp  {
+  gap: 10px;
+}
+.image2 {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+}
+.img0 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+.instgram {
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+.emaill {
+  display: flex;
+  align-items: center;
+}
+
+.img5 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+
+.c1 a:hover{
+    background-color: rgb(218, 162, 93);
+}
+
+.hh2{
+  background-color: aquamarine ;
+  color: rgb(10, 7, 6);
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 0100px;
+  transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+  perspective: 500px;
+}
+
+
+
+
+
+
+
+
